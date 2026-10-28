@@ -1,0 +1,31 @@
+# Fake UPI Shield Backend Dependencies
+# Compatible with Python 3.10 and 3.11 on Windows and Linux
+
+# Web Framework
+fastapi==0.115.8
+uvicorn[standard]==0.34.0
+pydantic==2.10.6
+pydantic-settings==2.7.1
+python-multipart==0.0.20
+
+# Database
+SQLAlchemy==2.0.38
+pymysql==1.1.1
+cryptography==44.0.1
+
+# Computer Vision & Image Preprocessing
+opencv-python-headless==4.11.0.86
+Pillow==11.1.0
+numpy>=1.26.0,<2.0.0
+
+# OCR (Requires Tesseract OCR binary installed on host OS)
+pytesseract==0.3.13
+
+# Machine Learning & Neural Network
+tensorflow==2.18.0
+
+# Testing & Utilities
+pytest==8.3.4
+pytest-asyncio==0.25.3
+httpx==0.28.1
+python-dotenv==1.0.1

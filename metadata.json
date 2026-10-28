@@ -1,0 +1,6 @@
+{
+  "name": "Fake UPI Shield",
+  "description": "AI-Based Fake UPI Payment Screenshot Detector using OCR, visual preprocessing, CNN analysis, and rule-based verification.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

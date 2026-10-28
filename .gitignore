@@ -1,0 +1,27 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Python & ML artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+venv/
+.venv/
+env/
+
+# Model weights & temporary files
+backend/app/ml/weights/*.keras
+backend/app/ml/weights/*.h5
+!backend/app/ml/weights/.gitkeep
+backend/uploads/
+data/dataset/genuine/*
+!data/dataset/genuine/.gitkeep
+data/dataset/suspicious/*
+!data/dataset/suspicious/.gitkeep
